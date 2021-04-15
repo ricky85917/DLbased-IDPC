@@ -31,4 +31,8 @@ Run the following code to test the network
 python Test_DLbased_IDPC.py
 ```
 ## Result
-Visual comparisons for DL-based IDPC results from model prediction
+Visual comparisons for input 1-axis qDPC, 12-axis isotropic qDPC, and DL-based isotropic qDPC reconstructions
+![DL-based IDPC flowchart](https://github.com/ricky85917/DLbased-IDPC/blob/main/ReadmeImg/Result1.PNG)
+
+3D visualization 
+![DL-based IDPC flowchart](https://github.com/ricky85917/DLbased-IDPC/blob/main/ReadmeImg/Result3D.PNG)
