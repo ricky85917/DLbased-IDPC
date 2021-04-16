@@ -13,13 +13,13 @@ This repository is the implementation of the U-net model for DL-based Isotropic 
 
 ## Usage
 ### Dependencies
-This work depends on the following libraries:
+The program requires Python 3.x and the following packages:
 
-Tensorflow-GPU == 1.4.1
+Tensorflow-GPU v1.4.1
 
-Keras == 2.1.6
+Keras v2.1.6
 
-Numpy == 1.16.6
+Numpy v1.16.6
 
 ### Load and Test
 Run the following code to load the model weights
