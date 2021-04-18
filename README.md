@@ -19,17 +19,24 @@ Tensorflow-GPU v1.4.1
 
 Keras v2.1.6
 
+Scipy v1.0.0
+
 Numpy v1.16.6
 
 ### Load and Test
-Run the following code to load the model weights
-```
-python load_weight.py
-```
-Run the following code to test the network
-```
-python Test_DLbased_IDPC.py
-```
+  1.Prepare the folder with following files and folder  
+      -DLbasedIDPC_predict.py  
+      -DLbasedIDPC_weights.hdf5  
+      -patches.py  
+      -test_input/  
+      -test_groundtruth/  
+  2.Make sure each folder contains 24 .mat files for predicting and comparing the testing results  
+  3.Run the following code to load the pretrained weights and predict the testing results  
+  ```
+  python DLbasedIDPC_predict.py
+  ```
+  4.Results from model prediction will be saved in the new *result_img* folder with 3 .jpg and 3 .mat files for visulization and further analysis
+
 ## Result
 Visual comparisons for input 1-axis qDPC, 12-axis isotropic qDPC, and DL-based isotropic qDPC reconstructions
 ![DL-based IDPC flowchart](https://github.com/ricky85917/DLbased-IDPC/blob/main/ReadmeImg/Result1.PNG)
