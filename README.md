@@ -34,7 +34,7 @@ Numpy v1.16.6
 2.Make sure each folder contains 24 .mat files for predicting and comparing the testing results  
 3.Run the following code to load the pretrained weights and predict the testing results  
   ```
-  python DLbasedIDPC_predict.py
+  python3 DLbasedIDPC_predict.py
   ```
 4.Results from model prediction will be saved in the new *result_img* folder with 3 .jpg and 3 .mat files for visulization and further analysis
 
