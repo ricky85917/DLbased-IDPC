@@ -24,7 +24,7 @@ Scipy v1.0.0
 Numpy v1.16.6
 
 ### Load and Test
-1.Prepare the folder with following files and folder  
+1.Prepare the folder with following files and folders  
   - DLbasedIDPC_predict.py  
   - DLbasedIDPC_weights.hdf5  
   - patches.py  
