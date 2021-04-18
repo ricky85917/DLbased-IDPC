@@ -25,11 +25,11 @@ Numpy v1.16.6
 
 ### Load and Test
   1.Prepare the folder with following files and folder  
-      -DLbasedIDPC_predict.py  
-      -DLbasedIDPC_weights.hdf5  
-      -patches.py  
-      -test_input/  
-      -test_groundtruth/  
+  - DLbasedIDPC_predict.py  
+  - DLbasedIDPC_weights.hdf5  
+  - patches.py  
+  - test_input/  
+  - test_groundtruth/  
   2.Make sure each folder contains 24 .mat files for predicting and comparing the testing results  
   3.Run the following code to load the pretrained weights and predict the testing results  
   ```
