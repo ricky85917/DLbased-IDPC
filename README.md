@@ -44,3 +44,6 @@ Visual comparisons for input 1-axis qDPC, 12-axis isotropic qDPC, and DL-based i
 
 3D visualization 
 ![DL-based IDPC flowchart](https://github.com/ricky85917/DLbased-IDPC/blob/main/ReadmeImg/Result3D.PNG)
+
+## Acknowledgement for reference repos
+[Patches](https://gist.github.com/dwf/366247)
